@@ -21,7 +21,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className=" md:fixed md:p-5 items-center flex justify-evenly md:justify-start h-full md:h-[100px] bg-white border w-full">
+    <nav className=" md:fixed md:p-5 items-center flex justify-evenly md:justify-start h-full md:h-[100px] bg-white border w-full z-10">
       <figure className="w-5/12 md:w-3/12 ">
         <Link href="/">
           <Image
@@ -42,7 +42,7 @@ export default function Navbar() {
       </div>
 
       <ul
-        className={`h-full *:m-5 md:flex text-lg *:mx-5 transition-all duration-300 ${
+        className={`h-full *:my-5 *:mx-2 md:flex text-lg  transition-all duration-300 ${
           isMenuOpen ? "flex flex-col items-center absolute bg-white w-full top-[70px] left-0 z-10 p-5" : "hidden md:flex"
         }`}
       >
