@@ -207,6 +207,19 @@ export default function Slider() {
           </div>
         </article>
       </section>
+      <section className="w-full flex flex-wrap justify-evenly my-20"> 
+            <figure className="w-full md:w-5/12">
+              <Image width={500} height={500} alt="img" src='https://cdn.alopeyk.com/misc/website/images/original/homepage/download-app.webp'/>
+            </figure>
+            <article className="w-full md:w-5/12 text-center flex flex-wrap justify-evenly *:my-5 *:md:my-0">
+              <h2 className="w-full text-3xl font-bold">تجربه بهتر با اپلیکیشن الوپیک</h2>
+              <p className="w-full text-gray-500">مناسب برای کاربران اندروید</p>
+              <Image className="w-5/12" height={200} width={200} alt="google" src='https://cdn.alopeyk.com/misc/website/images/original/common/cafe-bazaar.svg'/>
+              <Image className="w-5/12" height={200} width={200} alt="google" src='https://cdn.alopeyk.com/misc/website/images/original/common/google-play.svg'/>
+              <p className="w-full">مناسب برای کاربران وب و ios</p>
+              <Image className="w-5/12" height={200} width={200} alt="google" src='https://cdn.alopeyk.com/misc/website/images/original/common/web-app.svg'/>
+            </article>
+      </section>
     </>
 
 
