@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="380" height="400" viewBox="0 0 380 400">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Mask" width="380" height="226" rx="10" transform="translate(12292 -11121)" fill="#0044fe"/>
+    </clipPath>
+  </defs>
+  <g id="gradient_bg" data-name="gradient bg" transform="translate(-450 -807)">
+    <rect id="gradient_bg-2" data-name="gradient bg" width="380" height="400" rx="10" transform="translate(450 807)" fill="#09f"/>
+    <g id="Group_2272" data-name="Group 2272" transform="translate(-11842 11928)" clip-path="url(#clip-path)">
+      <g id="Ellipse_285" data-name="Ellipse 285" transform="translate(12338 -11274)" fill="none" stroke="rgba(255,255,255,0.2)" stroke-linecap="round" stroke-width="15" stroke-dasharray="10 40">
+        <circle cx="144.5" cy="144.5" r="144.5" stroke="none"/>
+        <circle cx="144.5" cy="144.5" r="137" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
