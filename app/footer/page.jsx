@@ -8,7 +8,7 @@ import Image from 'next/image';
 export default function Footer() {
   return (
     <footer className='w-full flex flex-wrap justify-evenly my-10 border-t-2 py-5'>
-      <article className='w-full md:w-8/12 *:w-3/12 flex flex-wrap '>
+      <article className='w-full md:w-8/12 *:w-6/12 *:md:w-3/12 flex flex-wrap '>
         <ul className='text-2xl font-bold *:text-lg  *:my-4 *:font-semibold'>خدمات
           <li> الوپیک</li>
           <li>الوتاکسی</li>

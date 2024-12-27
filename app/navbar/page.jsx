@@ -68,6 +68,9 @@ export default function Navbar() {
           </li>
         ))}
       </ul>
+      <button className="bg-sky-500 py-2 px-10 font-bold tex-xl border rounded-lg md:absolute md:left-10 text-white ">
+        <Link href="/login">ورود</Link>
+      </button>
     </nav>
   );
 }
