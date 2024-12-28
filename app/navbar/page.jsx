@@ -69,7 +69,7 @@ export default function Navbar() {
         ))}
       </ul>
       <button className="bg-sky-500 py-2 px-10 font-bold tex-xl border rounded-lg md:absolute md:left-10 text-white ">
-        <Link href="/login">ورود</Link>
+        <Link href="/login">ثبت نام</Link>
       </button>
     </nav>
   );
