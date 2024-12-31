@@ -62,7 +62,7 @@ export default function Slider() {
             {slides.map((_, index) => (
               <div
                 key={index}
-                onClick={() => handleTimelineClick(index)} // کلیک روی تایم‌لاین
+                onClick={() => handleTimelineClick(index)}
                 className={`h-5 w-5 mx-5 rounded-2xl cursor-pointer ${currentSlide === index ? "bg-black" : "bg-gray-300"
                   }`}
               />

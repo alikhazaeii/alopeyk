@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { gulzar } from "@/font/font";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +22,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="md:fixed md:p-5 items-center flex justify-evenly md:justify-start h-full md:h-[100px] bg-white border w-full z-10">
+    <nav className={`md:fixed md:p-5 items-center flex justify-evenly md:justify-start h-full md:h-[100px] bg-white border w-full z-10 ${gulzar.className} `}>
       <figure className="w-5/12 md:w-3/12 flex justify-center">
         <Link href="/">
           <Image
